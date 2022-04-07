@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: dft - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Administrator\AppData\Local\Temp\RSP1717.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/dft.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\Cproject\dft\dft.cpp"
+]
+Creating command line "cl.exe @C:\Users\Administrator\AppData\Local\Temp\RSP1717.tmp" 
+<h3>Output Window</h3>
+Compiling...
+dft.cpp
+D:\Cproject\dft\dft.cpp(30) : error C2017: illegal escape sequence
+D:\Cproject\dft\dft.cpp(32) : error C2017: illegal escape sequence
+D:\Cproject\dft\dft.cpp(33) : error C2065: 'PI' : undeclared identifier
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+dft.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
